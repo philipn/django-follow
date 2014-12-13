@@ -14,5 +14,5 @@ setup(
     include_package_data=True,
     package_data={'follow': ['templates/follow/*html']},
     zip_safe=False,
-    version=follow.__version__,
+    version=follow.__version__ + '-custom1',
 )
